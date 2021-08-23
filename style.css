@@ -1,0 +1,24 @@
+h1{
+  text-align:center;
+  border-bottom: 1px solid gray;
+  margin:0px;
+  padding:10px;
+}
+#grid ol{
+  border-right:1px solid black;
+  width:250px;
+  margin:0px;
+  padding-left:35px;
+}
+#grid{
+  display:grid;
+  grid-template-columns:300px 1fr;
+}
+@media(max-width:800px){
+  h1{border-bottom:none;
+
+    }
+    #grid ol{border-right:none;
+
+    }
+}
